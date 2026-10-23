@@ -1,0 +1,23 @@
+[user]
+	name = nurafandito
+	email = nurafandito@gmail.com
+
+[core]
+	commitTemplate = .gitmessage
+	ignorecase = false
+	safecrlf = warn
+
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	visual = log --graph --oneline --all
+
+[pull]
+	rebase = true
+
+[init]
+	defaultBranch = main
